@@ -1,5 +1,5 @@
-import { type ListOfTodos, type TodoId, type Todo as TodoType } from "../Types";
-import { Todo } from "./Todo";
+import { type ListOfTodos, type TodoId, type Todo as TodoType } from "../../Types.d";
+import { Todo } from "../Todo";
 
 interface Props {
     onRemoveTodo: (id: TodoId) => void

@@ -1,5 +1,5 @@
-import type { FilterValue } from "../Types"
-import { Filters } from "./Filter"
+import type { FilterValue } from "../../Types.d"
+import { Filters } from "../Filter"
 
 interface Props {
     onClearCompleted: () => void;
